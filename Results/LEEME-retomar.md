@@ -74,9 +74,9 @@ Qwen3.8-27B a 299 W, 2026-11-03, los mismos tokens en ambos casos. Detalle en `l
 | Copia de E: | `C:\IA\firmware-unlock\E-backup` |
 | Clave de firma | Certificados de usuario de Windows, huella `7A742B4CC542FFAE88EB49391A772A9D7E511589`, no exportable |
 | Scripts de arranque | `C:\start-unlock.ps1`, `C:\start-lock.ps1` (nombres de Iosu), `research\z890\register-unlock.ps1` |
-| GPU Power, Virtus Create | `C:\IA\Berpiztu\llm-create` (`gpu-power\`, `virtus\`), commit `38906b5` en GitHub |
+| GPU Power, Virtus Create | `C:\IA\Berpiztu\llm-create` (`gpu-power\`, `virtus\`), en GitHub, commit `3150e1e` |
 | Prueba de medición | `scripts\bench_virtus.py`; se lanza con el `.venv` de `llm-create`, modelo en `models\Qwen3.8-27B-UD-Q4_K_M-unpacked`, `--four-bits --max-vram-gb 21` |
-| Pendiente de commit | Temperatura en GPU Power, en `llm-create`. Esta carpeta `Results`, en `C:\IA\gpu-unlock` |
+| Estos resultados | `C:\IA\gpu-unlock\Results`, rama `z890-results`, en https://github.com/iosub/gpu-unlock |
 
 ## Lo que ya se decidió o aprendió
 

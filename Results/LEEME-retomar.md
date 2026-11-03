@@ -1,6 +1,9 @@
 # Desbloqueo RTX 3090 en Windows: dónde estamos
 
-Nota para retomar en una sesión nueva. Actualizada: 2026-11-03, 01:28.
+Nota para retomar en una sesión nueva. Actualizada: 2026-11-03.
+
+**Lo que se está haciendo ahora es Virtus Create, no el desbloqueo:** ver `virtus/docs/seguir.md` en
+https://github.com/Berpiztu/llm-create
 
 ## Pendiente, en este orden
 

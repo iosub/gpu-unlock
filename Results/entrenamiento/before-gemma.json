@@ -1,0 +1,40 @@
+{
+  "label": "before-gemma",
+  "torch": "2.14.1+cu130",
+  "idle": {
+    "power.draw": 13.34,
+    "power.limit": 329.0,
+    "clocks.sm": 210.0,
+    "clocks.mem": 405.0,
+    "temperature.gpu": 37.0,
+    "memory.used": 974.0
+  },
+  "gemm": {
+    "BF16": 71.13,
+    "FP16": 68.84,
+    "FP32": 24.34
+  },
+  "load_seconds": 96.7,
+  "model": "%USERPROFILE%/.lmstudio/models/lmstudio-community/gemma-4-E4B-it-GGUF/gemma-4-E4B-it-Q8_0.gguf",
+  "four_bits": false,
+  "settings": {
+    "four_bits": false,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "batch": 8,
+    "passes": 1,
+    "rate": 0.0001,
+    "warmup": 2,
+    "longest_example": 1024
+  },
+  "seconds_a_step": 3.893,
+  "gpu_training": {
+    "power.draw": 248.54,
+    "power.limit": 329.0,
+    "clocks.sm": 1920.0,
+    "clocks.mem": 9501.0,
+    "temperature.gpu": 74.0,
+    "memory.used": 17313.0
+  }
+}

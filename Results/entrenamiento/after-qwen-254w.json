@@ -1,0 +1,42 @@
+{
+  "label": "after-qwen-254w",
+  "torch": "2.14.1+cu130",
+  "max_vram_gb": 21.0,
+  "idle": {
+    "power.draw": 14.0,
+    "power.limit": 254.0,
+    "clocks.sm": 210.0,
+    "clocks.mem": 405.0,
+    "temperature.gpu": 43.0,
+    "memory.used": 974.0
+  },
+  "gemm": {
+    "BF16": 83.46,
+    "FP16": 78.18,
+    "FP32": 20.49
+  },
+  "kbit_fp32_cast": false,
+  "load_seconds": 58.4,
+  "model": "C:/IA/Berpiztu/llm-create/models/Qwen3.8-27B-UD-Q4_K_M-unpacked",
+  "four_bits": true,
+  "settings": {
+    "four_bits": true,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "batch": 8,
+    "passes": 1,
+    "rate": 0.0001,
+    "warmup": 2,
+    "longest_example": 1024
+  },
+  "seconds_a_step": 10.089,
+  "gpu_training": {
+    "power.draw": 253.39,
+    "power.limit": 254.0,
+    "clocks.sm": 1350.0,
+    "clocks.mem": 9501.0,
+    "temperature.gpu": 73.0,
+    "memory.used": 21129.0
+  }
+}

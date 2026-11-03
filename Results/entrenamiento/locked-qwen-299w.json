@@ -1,0 +1,42 @@
+{
+  "label": "locked-qwen-299w",
+  "torch": "2.14.1+cu130",
+  "max_vram_gb": 21.0,
+  "idle": {
+    "power.draw": 13.56,
+    "power.limit": 299.0,
+    "clocks.sm": 210.0,
+    "clocks.mem": 405.0,
+    "temperature.gpu": 36.0,
+    "memory.used": 0.0
+  },
+  "gemm": {
+    "BF16": 67.53,
+    "FP16": 65.64,
+    "FP32": 23.28
+  },
+  "kbit_fp32_cast": false,
+  "load_seconds": 54.6,
+  "model": "C:/IA/Berpiztu/llm-create/models/Qwen3.8-27B-UD-Q4_K_M-unpacked",
+  "four_bits": true,
+  "settings": {
+    "four_bits": true,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "batch": 8,
+    "passes": 1,
+    "rate": 0.0001,
+    "warmup": 2,
+    "longest_example": 1024
+  },
+  "seconds_a_step": 10.685,
+  "gpu_training": {
+    "power.draw": 297.7,
+    "power.limit": 299.0,
+    "clocks.sm": 1680.0,
+    "clocks.mem": 9501.0,
+    "temperature.gpu": 75.0,
+    "memory.used": 20156.0
+  }
+}
